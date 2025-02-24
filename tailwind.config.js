@@ -13,6 +13,13 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        sky: colors.sky,
+        stone: colors.stone,
+        neutral: colors.neutral,
+        gray: colors.gray,
+        slate: colors.slate,
+      },
     },
     colors: {
       ...colors,
