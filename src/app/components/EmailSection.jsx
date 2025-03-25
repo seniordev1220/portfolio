@@ -55,13 +55,17 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
+        <h5 className="text-xl font-bold text-white my-2">
+          Contact Info
+        </h5>
+        <p className="text-[#ADB7BE] mb-4 max-w-md">
+          {" "}
+          Email: seniordev1220@gmail.com
+        </p>
         <div className="socials flex flex-row gap-2">
           <a href="https://github.com/Gentlemen726" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </a>
-          <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </Link>
         </div>
       </div>
       <div>
